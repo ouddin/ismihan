@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ismihan Uddin - Personal Website</title>
+
+  <!-- Google Fonts for improved typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+      padding-top: 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #2c3e50;
+      font-weight: 600;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #7f8c8d;
+    }
+
+    nav {
+      background-color: #34495e;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: #ecf0f1;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      padding: 10px 15px;
+      display: inline-block;
+      border-radius: 4px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #1abc9c;
+      color: white;
+      transform: translateY(-2px);
+    }
+
+    section {
+      display: none;
+      padding: 30px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      max-width: 1100px;
+      transition: opacity 0.3s ease-in-out;
+    }
+
+    section.active {
+      display: block;
+      opacity: 1;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: #34495e;
+    }
+
+    section p {
+      font-size: 1.1rem;
+      color: #7f8c8d;
+      line-height: 1.8;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: #ecf0f1;
+      text-align: center;
+      padding: 20px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer a {
+      color: #ecf0f1;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+      }
+
+      nav ul li {
+        margin-bottom: 10px;
+      }
+
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      section {
+        padding: 20px;
+      }
+
+      section h2 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Ismihan Uddin</h1>
+    <p>Phone: (847)-344-9962 | Email: ismihanauddin@gmail.com</p>
+  </header>
+
+  <!-- Navigation Bar (Tabs) -->
+  <nav>
+    <ul>
+      <li><a href="javascript:void(0);" onclick="showSection('home')">Home</a></li>
+      <li><a href="javascript:void(0);" onclick="showSection('education')">Education</a></li>
+      <li><a href="javascript:void(0);" onclick="showSection('work')">Work Experience</a></li>
+      <li><a href="javascript:void(0);" onclick="showSection('volunteer')">Volunteer Experience</a></li>
+      <li><a href="javascript:void(0);" onclick="showSection('awards')">Awards</a></li>
+      <li><a href="javascript:void(0);" onclick="showSection('activities')">Activities</a></li>
+      <li><a href="javascript:void(0);" onclick="showSection('research')">Research Experience</a></li>
+      <li><a href="javascript:void(0);" onclick="showSection('publications')">Publications</a></li>
+
+
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="active">
+    <h2>Welcome!</h2>
+    <p>Welcome to my personal website. Here you can learn more about my educational background, work experience, volunteer work, and more.</p>
+  </section>
+
+  <!-- Education Section -->
+<section id="education">
+  <h2>Education</h2>
+  <ul>
+    <li>
+      <strong>Chicago College of Osteopathic Medicine (May 2023 - Current)</strong>
+      <br>
+      <em>Doctor of Osteopathic Medicine (DO)</em>
+    </li>
+    <li>
+      <strong>University of Illinois at Chicago (August 2019 - May 2023)</strong>
+      <br>
+      <em>Bachelor of Science in Biochemistry</em>
+      <br>
+      GPA: 3.94/4.00
+    </li>
+    <li>
+      <strong>Harry D. Jacobs High School, Algonquin, IL (Graduated: May 2020)</strong>
+      <br>
+      GPA: 4.00/4.00
+    </li>
+  </ul>
+</section>
+
+
+  <!-- Work Experience Section -->
+  <section id="work">
+    <h2>Work Experience</h2>
+    <p><strong>Northwestern Medicine</strong> - Certified Medical Assistant (June 2021 - Present)</p>
+    <p><strong>Math & Science Learning Center</strong> - Science and Math Tutor (August 2020 - May 2023)</p>
+    <p><strong>Walgreens Pharmacy</strong> - Certified Pharmacy Technician (August 2020 - April 2021)</p>
+  </section>
+
+  <!-- Volunteer Experience Section -->
+  <section id="volunteer">
+    <h2>Volunteer Experience</h2>
+    <p><strong>American Muslim Community Organization</strong> - School Teacher & Administrator (June 2021 - Present)</p>
+    <p><strong>Red Cross</strong> - Medical Volunteer in Sarajevo, Bosnia and Herzegovina (May 2022 - August 2022)</p>
+    <p><strong>Advocate Sherman Hospital</strong> - Emergency Room Volunteer (January 2021 - September 2021)</p>
+  </section>
+
+  <!-- Awards Section -->
+  <section id="awards">
+  <h2>Awards</h2>
+  <ul>
+    <li>
+      <strong>Omega Beta Iota Honors Society Induction</strong> (September 2024)
+    </li>
+    <li>
+      <strong>Schweitzer Fellowship Induction</strong> (May 2024) 
+      <br>
+      <em>(Chicago Health & Medicine Policy Research Group)</em>
+    </li>
+    <li>
+      <strong>Edward G. Rietz Biochemistry Award</strong> (May 2023) 
+      <br>
+      <em>(UIC Chemistry Department)</em> 
+      <br>
+      Awarded to one outstanding senior-level student in the Chemistry Department each year by the UIC Chemistry department.
+    </li>
+    <li>
+      <strong>UIC College of Medicine Gold Medal Honors Award</strong> (January 2022) 
+      <br>
+      <em>(UIC College of Medicine)</em> 
+      <br>
+      Awarded for first place in the UIC College of Medicine Research Forum Presentation for 2022, for the presentation 
+      <q>“Glucose reversibly controls protein stability of HKDC1 in Hepatocellular Carcinoma.”</q>
+    </li>
+    <li>
+      <strong>UIC Honors College Scholarship Award</strong> (May 2020 - August 2023)
+    </li>
+    <li>
+      <strong>UIC Herbert E. Paaren Scholarship Award</strong> (May 2022)
+    </li>
+    <li>
+      <strong>UIC LASURI Scholarship Award</strong> (May 2022)
+    </li>
+    <li>
+      <strong>UIC Honors College Research Scholarship Award</strong> (January 2022)
+    </li>
+    <li>
+      <strong>UIC Flames Internship Scholarship Award</strong> (January 2022)
+    </li>
+    <li>
+      <strong>Cognella Cares Scholarship Award</strong> (March 2021)
+    </li>
+    <li>
+      <strong>National Honors Society Scholarship Award</strong> (August 2020)
+    </li>
+  </ul>
+</section>
+
+<!-- Activities Section -->
+<section id="activities">
+  <h2>Activities</h2>
+  <ul>
+    <li>
+      <strong>National Student Osteopathic Medical Association</strong> (May 2023 - Current) 
+      <br>
+      <em>Research Committee Board Member</em>
+    </li>
+    <li>
+      <strong>Chicago College of Osteopathic Medicine Student Government Association</strong> (May 2024 - Current) 
+      <br>
+      <em>SGA Vice President</em>
+    </li>
+    <li>
+      <strong>American Osteopathic Association Global Student of the Year Selection Committee</strong> (May 2024 - Current) 
+      <br>
+      <em>Selection Committee Chair</em>
+    </li>
+    <li>
+      <strong>American Osteopathic Association Council of Osteopathic Student Government Presidents</strong> (July 2024) 
+      <br>
+      <em>Student Delegate</em>
+    </li>
+    <li>
+      <strong>Chicago College of Osteopathic Medicine Ambassador</strong> (May 2023 - Current) 
+      <br>
+      <em>Mentorship Program Director</em>
+    </li>
+    <li>
+      <strong>Chicago College of Osteopathic Medicine Class Council</strong> (May 2023 - May 2024) 
+      <br>
+      <em>Class of 2027 Liaison</em>
+    </li>
+    <li>
+      <strong>Chicago Area Undergraduate Research Symposium, Chicago IL</strong> (May 2022 - August 2023) 
+      <br>
+      <em>Inter-School Board Member</em>
+    </li>
+    <li>
+      <strong>UIC Blood Buds, Chicago IL</strong> (June 2022 - May 2023) 
+      <br>
+      <em>Board Member</em>
+    </li>
+  </ul>
+</section>
+
+<section id="research">
+  <h2>Research Experience</h2>
+  <ul>
+    <li>
+      <strong>Dr. Jason Strelzow & Dr. Jennifer Wolf Lab, University of Chicago</strong> (May 2024 - Current)
+      <br>
+      <em>- Research on patient-reported outcomes for elbow and shoulder injuries, focusing on urban trauma, PTSD, and ballistic injuries to improve treatments.</em>
+    </li>
+    <li>
+      <strong>Dr. Terranova Lab, Midwestern University</strong> (May 2024 - Current)
+      <br>
+      <em>- Investigating neural circuits in empathy, prosocial behavior, and memory; employing techniques like immunohistochemistry and optogenetics.</em>
+    </li>
+    <li>
+      <strong>Dr. Mejia-Alvarez Lab, Midwestern University</strong> (March 2024 - Current)
+      <br>
+      <em>- Exploring Ca<sup>2+</sup> release mechanisms in excitable cells, focusing on ryanodine and inositol receptors and implications for cardiac disorders.</em>
+    </li>
+    <li>
+      <strong>Dr. Khan Lab, UIC College of Medicine, Department of Endocrinology</strong> (August 2020 - May 2023)
+      <br>
+      <em>- Focused on liver cancer metabolism and identifying proteins to develop targeted therapies.</em>
+    </li>
+    <li>
+      <strong>Dr. Papadantonakis Cancer Biophysics Lab, UIC, Dept. of Chemistry</strong> (August 2021 - May 2023)
+      <br>
+      <em>- Studied nucleotide ionization energies to understand DNA damage and mutation susceptibility.</em>
+    </li>
+  </ul>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <ul>
+    <li>
+      <strong>Uddin, I. A., Stec, E., & Papadantonakis, G. A.</strong> (2024). Ionization Patterns and Chemical Reactivity of Cytosine‐Guanine Watson‐Crick Pairs. 
+      <em>ChemPhysChem</em>, Wiley. 
+      <a href="https://doi.org/10.1002/cphc.202300946" target="_blank">https://doi.org/10.1002/cphc.202300946</a>
+    </li>
+    <li>
+      <strong>Suhling, M., Thompson, T., & Uddin, I. A.</strong> (2024). Cutaneous Squamous Cell Carcinoma. 
+      <em>Geriatric Dermatology</em>, Springer International Publishing. 
+      <a href="https://doi.org/10.1007/978-3-031-53888-9_80-1" target="_blank">https://doi.org/10.1007/978-3-031-53888-9_80-1</a>
+    </li>
+  </ul>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 Ismihan Uddin | <a href="mailto:ismihanauddin@gmail.com">Contact Me</a></p>
+  </footer>
+
+  <script>
+    // JavaScript to handle tab switching
+    function showSection(sectionId) {
+      // Hide all sections
+      var sections = document.querySelectorAll('section');
+      sections.forEach(function(section) {
+        section.classList.remove('active');
+      });
+
+      // Show the selected section
+      var activeSection = document.getElementById(sectionId);
+      activeSection.classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
